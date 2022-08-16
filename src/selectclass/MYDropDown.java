@@ -16,7 +16,7 @@ public class MYDropDown {
         driver.get("https://trytestingthis.netlify.app");
         WebElement dropdown = driver.findElement(By.id("option"));
         Select selectObject = new Select(dropdown);
-        selectObject.selectByIndex(1);
+        selectObject.seectById(1);
         Thread.sleep(4000);
 
         selectObject.selectByValue("option 2");
