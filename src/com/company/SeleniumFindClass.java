@@ -11,7 +11,7 @@ public class SeleniumFindClass {
         System.setProperty("webdriver.chrome.driver", "C:/Users/hp/Downloads/chromedriver_win32/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
-        driver.findElement(By.tagName("login1")).sendKeys( "bharati1811@gmail.com");
+        driver.findElement(By.tagName("login1")).( "bharati1811@gmail.com");
         Thread.sleep(5000);
         driver.close();
 
