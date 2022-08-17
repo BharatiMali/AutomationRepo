@@ -15,11 +15,11 @@ public class GetCookies {
         driver.manage().window().maximize();
 
         Cookie addCookies = new Cookie( "bharati", "Mali");             //Add Cookies
-        driver.manage().addCookie(addCookies);
+        driver.manage().addCookie(addCookies)
 
         System.out.println(driver.manage().getCookieNamed("Mali"));     //Get Cookies Name
 
-        Set<Cookie> cookies = driver.manage().getCookies();           //Get Cookies
+        Set<Cookie> cookies = driver.manage().getCookies()           //Get Cookies
         for (Cookie c : cookies){
             System.out.println(c);
         }
