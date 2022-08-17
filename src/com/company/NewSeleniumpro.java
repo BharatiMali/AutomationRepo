@@ -12,7 +12,7 @@ public class NewSeleniumpro {
         WebDriver driver = new ChromeDriver();
         driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
         driver.findElement(By.id("login1")).sendKeys( "bharati1811@gmail.com");
-        Thread.sleep( 5000);
+        Thread.sleep(4000);
         driver.close();
 
     }
